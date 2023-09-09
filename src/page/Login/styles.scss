@@ -1,0 +1,70 @@
+.login{
+    width: 100%;
+    min-height: 90vh;
+    background-color: #ee4d2d;
+}
+.container-login{
+    width: 90%;
+    min-height: 80vh;
+    margin:auto;
+    background-image: url("https://down-vn.img.susercontent.com/file/sg-11134004-7rbk0-lkqed7pgsfw7b1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.login-box{
+    width: 400px;
+    min-height: 540px;
+    background-color: white;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    padding: 10px;
+}
+.login-by{
+    padding: 0.6875rem 0.875rem;
+    color: #ffbf00;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: 2px solid #ffbf00;
+    border-radius: 2px;
+    position: relative;
+    margin-right: 1rem;
+    background-color: #fefaec;
+}
+.login-by::after{
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+    width: 0.75rem;
+    height: 0.75rem;
+    transform: rotate(45deg) translateX(-50%);
+    border-top: 2px solid #ffbf00;
+    border-right: 2px solid #ffbf00;
+    top: 50%;
+    right: -0.75rem;
+    background-color: #fefaec;
+}
+.form-login{
+    display: grid;
+    grid-template-columns: auto;
+}
+.form-login input{
+    margin: 20px 10px;
+    padding: 10px;
+    border: 1px solid #c2b99b;
+}
+.or{
+    color: #cccac5;
+    margin: 20px 0 0;
+    position: relative;
+}
+.or-span{
+    background-color: white;
+    padding: 5px;
+    position: relative;
+    left: 40%;
+    transform: translateX(-60%);
+    top: -19px;
+}
